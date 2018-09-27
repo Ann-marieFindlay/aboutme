@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  marign: 0;
+  padding: 0;
+  font-family: Arial, serif;
+  background-color: #51A3CB;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin: 20px;
+  padding: 50px 20px 20px 20px;
+  display: inline-block;
+}
+
+.contact a {
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.contact a:link {
+  text-decoration: none;
+}
+
+.contact a:visited {
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact a:active {
+  text-decoration: underline;
+}
+
+
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #1A323C;
+}
+
+.nav .current {
+  background-color: #ddd;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.nav li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+
+h1 {
+  color: #DCCB89;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  text-shadow: 1px 1px blue;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.indextext {
+  color: black;
+  background-color: #51a3cb;
+  margin: 60px 20px;
+  font-size: 18px;
+}
